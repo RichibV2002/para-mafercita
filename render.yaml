@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: para-mafercita
+    runtime: static
+    buildCommand: echo "Sitio listo"
+    staticPublishPath: .
+    autoDeployTrigger: commit
